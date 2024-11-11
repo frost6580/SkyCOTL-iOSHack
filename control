@@ -1,0 +1,9 @@
+Package: com.frost6580.imgui
+Name: ImGuiMod-SkyCOTL
+Version: 1.0
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: frost6580
+Author: frost6580
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
