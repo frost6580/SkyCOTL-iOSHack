@@ -12,39 +12,38 @@ class Sky
 private:
     Memory m;
     struct {
-        const std::vector<uintptr_t> CollectEdenCandle = {0x19B2188};
-        const std::vector<uintptr_t> CollectWingLight = {0x1A63D20};
-        const std::vector<uintptr_t> HiddenClouds = {0x1BA186C - 0x4};
-        const std::vector<uintptr_t> InfFly = {0x1BA186C};
-        const std::vector<uintptr_t> HiddenGrass = {0x1BB74C0};
-        const std::vector<uintptr_t> DisableOnline = {0x1BCBA38};
-        const std::vector<uintptr_t> HiddenWater = {0x1BD111C};
-        const std::vector<uintptr_t> DisableGravity = {0x1BEDFBC};
-        const std::vector<uintptr_t> WalkingSpeed = {0x1BEDFF0};
+        const std::vector<uintptr_t> CollectEdenCandle = {0x0};
+        const std::vector<uintptr_t> CollectWingLight = {0x0};
+        const std::vector<uintptr_t> HiddenClouds = {0x1C16A44 - 0x4};
+        const std::vector<uintptr_t> InfFly = {0x1C16A44};
+        const std::vector<uintptr_t> HiddenGrass = {0x1C2CEC0};
+        const std::vector<uintptr_t> DisableOnline = {0x1C41C78};
+        const std::vector<uintptr_t> HiddenWater = {0x1C47454};
+        const std::vector<uintptr_t> DisableGravity = {0x1C6481C};
+        const std::vector<uintptr_t> WalkingSpeed = {0x1C64850};
         const std::vector<uintptr_t> DivingSpeed = {0x1BEE4E4};
         const std::vector<uintptr_t> SwimmingSpeed = {0x1BEE4E4 + 0x8};
-        const std::vector<uintptr_t> HiddenFog = {0x1C9834C};
-        const std::vector<uintptr_t> ViewMatrix = {0x1d92430, 0x58, 0x370};
-        const std::vector<uintptr_t> MapString = {0x1d92430, 0x58, 0x478};
-        const std::vector<uintptr_t> WingCount = {0x1d92430, 0x8, 0x648, 0x6180};
-        const std::vector<uintptr_t> LocalPlayerPos = {0x1d92430, 0x10, 0x38, 0x0};
-        const std::vector<uintptr_t> LocalPlayerAngle = {0x1d92430, 0x10, 0x38, 0x20};
-        const std::vector<uintptr_t> CurrentMapID = {0x1d92430, 0x10, 0x38, 0x5458};
-        const std::vector<uintptr_t> Glow = {0x1d92430, 0x10, 0x68, 0x4bc};
-        const std::vector<uintptr_t> Costume = {0x1d92430, 0x10, 0x78, 0x44};
-        const std::vector<uintptr_t> LocalPlayerHeight = {0x1d92430, 0x10, 0x78, 0x177c};
-        const std::vector<uintptr_t> Shout = {0x1d92430, 0x10, 0x78, 0x1870};
-        const std::vector<uintptr_t> InfFirework = {0x1d92430, 0x10, 0x78, 0x1884};
-        const std::vector<uintptr_t> CandleCount = {0x1d92430, 0x10, 0xa0, 0x78};
-        const std::vector<uintptr_t> NoCape = {0x1d92430, 0x10, 0xa0, 0xb204};
-        const std::vector<uintptr_t> Magic = {0x1d92430, 0x10, 0xb8, 0x10};
-        const std::vector<uintptr_t> OpenCloset = {0x1d92430, 0x50, 0x120, 0x54};
-        const std::vector<uintptr_t> GlobalSpeed = {0x1d92430, 0x30, 0x28};
-        const std::vector<uintptr_t> ViewAngle = {0x1d92430, 0x60, 0x50, 0x59c};
-        const std::vector<uintptr_t> CandleList = {0x1d92430, 0x18, 0x10, 0x5a0, 0x0};
-        const std::vector<uintptr_t> AlwaysCandle = {0x1d92430, 0x18, 0x28, 0xa8, 0x1c8, 0xc};
-        const std::vector<uintptr_t> WaxList = {0x1d92430, 0x18, 0x10, 0x638, 0x0};
-        const std::vector<uintptr_t> FlowerList = {0x1d92430, 0x18, 0x10, 0x7b8, 0x0};
+        const std::vector<uintptr_t> HiddenFog = {0x1D0F484};
+        const std::vector<uintptr_t> ViewMatrix = {0x1e0d9d0, 0x58, 0x230};
+        const std::vector<uintptr_t> MapString = {0x1e0d9d0, 0x58, 0x338};
+        const std::vector<uintptr_t> WingCount = {0x1e0d9d0, 0x8, 0x670, 0x6180};
+        const std::vector<uintptr_t> LocalPlayerPos = {0x1e0d9d0, 0x10, 0x38, 0x0};
+        const std::vector<uintptr_t> LocalPlayerAngle = {0x1e0d9d0, 0x10, 0x38, 0x20};
+        const std::vector<uintptr_t> CurrentMapID = {0x1e0d9d0, 0x10, 0x88, 0x0, 0x4658};
+        const std::vector<uintptr_t> Glow = {0x1e0d9d0, 0x10, 0x68, 0x4bc};
+        const std::vector<uintptr_t> Costume = {0x1e0d9d0, 0x10, 0x78, 0x44};
+        const std::vector<uintptr_t> LocalPlayerHeight = {0x1e0d9d0, 0x10, 0x78, 0x177c};
+        const std::vector<uintptr_t> InfFirework = {0x1e0d9d0, 0x10, 0x78, 0x1884};
+        const std::vector<uintptr_t> CandleCount = {0x1e0d9d0, 0x10, 0xa0, 0x78};
+        const std::vector<uintptr_t> NoCape = {0x1e0d9d0, 0x10, 0xa0, 0xb264};
+        const std::vector<uintptr_t> Magic = {0x1e0d9d0, 0x10, 0xb8, 0x10};
+        const std::vector<uintptr_t> OpenCloset = {0x1e0d9d0, 0x50, 0x120, 0x54};
+        const std::vector<uintptr_t> GlobalSpeed = {0x1e0d9d0, 0x30, 0x28};
+        const std::vector<uintptr_t> ViewAngle = {0x1e0d9d0, 0x60, 0x50, 0x59c};
+        const std::vector<uintptr_t> CandleList = {0x1e0d9d0, 0x18, 0x10, 0x5b0, 0x0};
+        const std::vector<uintptr_t> AlwaysCandle = {0x1e0d9d0, 0x18, 0x28, 0xa8, 0x1c8, 0xc};
+        const std::vector<uintptr_t> WaxList = {0x1e0d9d0, 0x18, 0x10, 0x648, 0x0};
+        const std::vector<uintptr_t> FlowerList = {0x1e0d9d0, 0x18, 0x10, 0x7d0, 0x0};
     } Offsets;
 
     std::string CurrentMapName = "";
@@ -171,7 +170,7 @@ public:
     }
 
     void SetInfFirework(bool activate = true){
-        m.Write<float>(m.GetPointer(Offsets.InfFirework), activate ? 1000.f : 5.f);
+        m.Write<uint32_t>(m.GetPointer(Offsets.InfFirework), activate ? 1000 : 5);
     }
 
     void SetItemCount(uint32_t index, uint32_t value = 0) {
